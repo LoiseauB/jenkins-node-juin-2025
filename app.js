@@ -23,7 +23,7 @@ app.get("/student/:id", (req, res) => {
   if (id === "2") {
     return res.json({
       id: 2,
-      name: "Eude",
+      name: "Clarice",
       age: 40,
     });
   }
